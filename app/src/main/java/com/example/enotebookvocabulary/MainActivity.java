@@ -1,6 +1,8 @@
 package com.example.enotebookvocabulary;
 
+import android.graphics.Bitmap;
 import android.os.Bundle;
+import android.view.Menu;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
@@ -32,6 +34,13 @@ public class MainActivity extends AppCompatActivity {
 
         adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, words);
         listView.setAdapter(adapter);
+        
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu_main, menu);
+        return true;
     }
 
    /* public void addWords(View view){
@@ -55,7 +64,9 @@ public class MainActivity extends AppCompatActivity {
         adapter.notifyDataSetChanged();
 
         boolean result = JSONHelper.exportToJSON(this, words);
-
+        for (int i = 0; i < 100; i++) {
+            Bitmap bmp = Bitmap.createBitmap(100, 100, Bitmap.Config.ARGB_4444);
+        }
         if(result){
             Toast.makeText(this, "Data saved", Toast.LENGTH_LONG).show();
         }

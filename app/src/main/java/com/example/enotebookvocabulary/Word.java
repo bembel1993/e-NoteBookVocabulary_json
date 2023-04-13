@@ -2,7 +2,7 @@ package com.example.enotebookvocabulary;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class Word extends AppCompatActivity {
+public class Word {
     private String russianWord;
     private String englishWord;
     private String deutschWord;

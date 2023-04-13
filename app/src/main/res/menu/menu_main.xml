@@ -7,14 +7,14 @@
     <item
         android:background="@drawable/logo"
         android:id="@+id/action_open"
-        android:icon="@drawable/baseline_description_black_24dp"
-        android:orderInCategory="100"
+        android:icon="@drawable/baseline_file_open_black_24dp"
+        android:orderInCategory="50"
         app:showAsAction="ifRoom|withText"
         android:title="@string/action_open" />
     <item
         android:id="@+id/action_save"
-        android:icon="@drawable/baseline_save_black_24dp"
-        android:orderInCategory="100"
+        android:icon="@drawable/baseline_text_snippet_black_24dp"
+        android:orderInCategory="50"
         app:showAsAction="ifRoom|withText"
         android:title="@string/action_save" />
 </menu>

@@ -12,7 +12,7 @@ import java.util.List;
 
 class JSONHelper {
 
-    private static final String FILE_NAME = "vocabulary.json";
+    private static final String FILE_NAME = "vocabulary123.json";
 
     static boolean exportToJSON(Context context, List<Word> dataList) {
 
