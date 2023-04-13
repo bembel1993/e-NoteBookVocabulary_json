@@ -4,6 +4,7 @@ ____
 #### Platform - Android
 #### Language - Java SE
 #### DB - JSON and TXT file
+#### Build automation tool - Gradle
 #### Integrated Development Environment - Android Studio
 ### Features Application
 #### My app is an electronic notebook vocabulary and has next function:
