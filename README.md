@@ -1,4 +1,4 @@
-# e-NoteBookVocabulary_json
+# e-Notebook Vocabulary
 ____
 ### Used technologies
 #### Platform - Android
